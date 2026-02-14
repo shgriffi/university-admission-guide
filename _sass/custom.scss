@@ -1,0 +1,149 @@
+// Custom styles for College Admissions Guide
+
+// Responsive design overrides
+// Mobile: 320px - 767px
+// Tablet: 768px - 1023px
+// Desktop: 1024px+
+
+// Ensure minimum width support
+@media (max-width: 320px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+// Mobile responsive adjustments
+@media (max-width: 767px) {
+  .main-content {
+    padding: 1rem;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+// Tablet adjustments
+@media (min-width: 768px) and (max-width: 1023px) {
+  .side-bar {
+    width: 200px;
+  }
+
+  .main {
+    margin-left: 200px;
+  }
+}
+
+// Desktop optimizations
+@media (min-width: 1024px) {
+  .main-content {
+    max-width: 1000px;
+  }
+}
+
+// Ensure tables are responsive
+table {
+  width: 100%;
+  margin-bottom: 1rem;
+
+  @media (max-width: 767px) {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+// Enhanced link styles for external links
+a[href^="http"]:not([href*="github.io"]):after {
+  content: " ↗";
+  font-size: 0.8em;
+}
+
+// CSV download links
+a[href$=".csv"] {
+  font-weight: bold;
+
+  &:before {
+    content: "📊 ";
+  }
+}
+
+// Improve readability
+.main-content {
+  line-height: 1.6;
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  ul, ol {
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+  }
+}
+
+// Navigation active state enhancement
+.nav-list-link.active {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+// Mobile menu improvements
+@media (max-width: 767px) {
+  .site-nav {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 80%;
+    max-width: 300px;
+    height: 100vh;
+    background: white;
+    transition: left 0.3s ease;
+    overflow-y: auto;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+
+    &.nav-open {
+      left: 0;
+    }
+  }
+
+  .menu-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 999;
+
+    &.active {
+      display: block;
+    }
+  }
+}
+
+// Print styles
+@media print {
+  .side-bar,
+  .site-footer,
+  .aux-nav {
+    display: none;
+  }
+
+  .main {
+    margin-left: 0;
+  }
+
+  .main-content {
+    max-width: 100%;
+  }
+}
