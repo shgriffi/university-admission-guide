@@ -682,6 +682,53 @@ Visit: **http://localhost:4000/**
 
 ---
 
+#### Fedora/RHEL/CentOS
+
+For Fedora, Red Hat Enterprise Linux, or CentOS:
+
+```bash
+# Update package lists
+sudo dnf update -y
+
+# Install Ruby and build dependencies
+sudo dnf install ruby ruby-devel gcc gcc-c++ make redhat-rpm-config -y
+
+# Install development tools group (includes make, gcc, etc.)
+sudo dnf groupinstall "Development Tools" -y
+
+# Install additional dependencies
+sudo dnf install zlib-devel openssl-devel -y
+
+# Configure gem installation directory (avoid needing sudo for gems)
+echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+
+# Install Bundler
+gem install bundler
+
+# Verify installation
+ruby --version
+bundler --version
+
+# Navigate to project and install dependencies
+cd /path/to/college/connor
+bundle install
+
+# Start server
+bundle exec jekyll serve
+```
+
+Visit: **http://localhost:4000/**
+
+**Fedora-Specific Notes**:
+- Fedora typically comes with a recent Ruby version (3.x+)
+- If you need a specific Ruby version, consider using [rbenv](https://github.com/rbenv/rbenv) or [RVM](https://rvm.io/)
+- SELinux may affect file permissions - if you encounter permission errors, check SELinux status with `getenforce`
+
+---
+
 ### Local Testing Workflow
 
 Once Jekyll is running locally:
