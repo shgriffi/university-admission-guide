@@ -1,0 +1,90 @@
+# Site settings
+title: "Comprehensive College Admissions Guide for Homeschool Students"
+description: "A complete, customizable template for college admissions planning specifically designed for homeschool families."
+author: "Connor College Admissions Guide"
+email: ""
+baseurl: "" # Leave empty for main domain deployment
+url: "" # Will be set by GitHub Pages
+
+# Build settings
+markdown: kramdown
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Just-the-Docs theme configuration
+color_scheme: light
+search_enabled: true
+heading_anchors: true
+
+# Enable aux links (top right navigation)
+aux_links:
+  "View on GitHub":
+    - "https://github.com/shgriffi/university-admission-guide"
+
+# Footer content
+footer_content: "Copyright &copy; 2026 Connor College Admissions Guide. Distributed under the MIT License."
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - specs/
+  - .specify/
+  - .git/
+  - .gitignore
+
+# Collections and defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+  - scope:
+      path: "content/guide"
+    values:
+      layout: "page"
+  - scope:
+      path: "research"
+    values:
+      layout: "page"
+  - scope:
+      path: "spreadsheets"
+    values:
+      layout: "page"
+
+# Permalink structure for clean URLs
+permalink: pretty
+
+# Use README.md as index page
+include:
+  - README.md
+
+# Configure homepage
+defaults:
+  - scope:
+      path: "README.md"
+    values:
+      layout: "home"
+      nav_order: 1
+      title: "Home"
+
+# kramdown settings
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false

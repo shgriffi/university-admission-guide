@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Timeline"
+nav_order: 2
+---
+
 # Timeline Overview: 18-Month College Admissions Journey
 
 **For**: Homeschool Students (Junior Year)
