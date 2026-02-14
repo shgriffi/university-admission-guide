@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Overview"
+parent: "Homeschool Requirements"
+nav_order: 1
+---
+
 # Overview of Homeschool Admissions
 
 **For**: Homeschool Students (Class of [YEAR])

@@ -1,3 +1,10 @@
+---
+layout: page
+title: "NC Regulations"
+parent: "Homeschool Requirements"
+nav_order: 5
+---
+
 # North Carolina Homeschool Regulations
 
 **For**: Homeschool Students (Class of [YEAR])

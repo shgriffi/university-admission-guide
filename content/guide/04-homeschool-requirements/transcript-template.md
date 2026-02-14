@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Transcript Template"
+parent: "Homeschool Requirements"
+nav_order: 6
+---
+
 # Homeschool Transcript Template
 
 **Instructions**: This template can be used in Microsoft Word or Google Docs. Fill in all [BRACKETED] fields with your student's information. Delete these instruction paragraphs before printing the final transcript.

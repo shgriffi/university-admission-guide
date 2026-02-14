@@ -1,3 +1,10 @@
+---
+layout: page
+title: "NC State"
+parent: "Universities"
+nav_order: 1
+---
+
 # North Carolina State University
 
 **For**: Homeschool Students (Class of [YEAR])

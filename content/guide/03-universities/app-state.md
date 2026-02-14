@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Appalachian State"
+parent: "Universities"
+nav_order: 4
+---
+
 # Appalachian State University
 
 **For**: Homeschool Students (Class of [YEAR])

@@ -1,3 +1,10 @@
+---
+layout: page
+title: "UNC Charlotte"
+parent: "Universities"
+nav_order: 7
+---
+
 # University of North Carolina at Charlotte
 
 **For**: Homeschool Students (Class of [YEAR])

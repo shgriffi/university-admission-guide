@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Google Docs Instructions"
+parent: "Homeschool Requirements"
+nav_order: 8
+---
+
 # Converting Transcript Template to Google Docs
 
 **Purpose**: Instructions for using the homeschool transcript template in Google Docs

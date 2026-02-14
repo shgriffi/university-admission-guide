@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Duke"
+parent: "Universities"
+nav_order: 2
+---
+
 # Duke University
 
 **For**: Homeschool Students (Class of [YEAR])

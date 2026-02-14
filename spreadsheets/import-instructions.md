@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Spreadsheets"
+nav_order: 6
+---
+
 # CSV Import Instructions for Google Sheets
 
 **Purpose**: Import all 16 CSV deadline tracking files into a single Google Sheets workbook with multiple tabs

@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Recommendations"
+parent: "Homeschool Requirements"
+nav_order: 3
+---
+
 # Letters of Recommendation for Homeschoolers
 
 **For**: Homeschool Students (Class of [YEAR])

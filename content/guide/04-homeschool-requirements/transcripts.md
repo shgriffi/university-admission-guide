@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Transcripts"
+parent: "Homeschool Requirements"
+nav_order: 2
+---
+
 # Transcript Preparation Guide for Homeschoolers
 
 **For**: Homeschool Students (Class of [YEAR])

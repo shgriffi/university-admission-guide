@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Transcript Sample"
+parent: "Homeschool Requirements"
+nav_order: 7
+---
+
 # Sample Homeschool Transcript
 ## (Anonymized Example for Reference)
 

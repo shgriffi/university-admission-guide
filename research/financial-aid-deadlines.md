@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Financial Aid Deadlines"
+parent: "Research"
+nav_order: 2
+---
+
 # Financial Aid Deadlines for 2026-2027 Academic Year
 
 **Research Date**: February 14, 2026

@@ -690,14 +690,8 @@ For Fedora, Red Hat Enterprise Linux, or CentOS:
 # Update package lists
 sudo dnf update -y
 
-# Install Ruby and build dependencies
-sudo dnf install ruby ruby-devel gcc gcc-c++ make redhat-rpm-config -y
-
-# Install development tools group (includes make, gcc, etc.)
-sudo dnf groupinstall "Development Tools" -y
-
-# Install additional dependencies
-sudo dnf install zlib-devel openssl-devel -y
+# Install Ruby and all build dependencies
+sudo dnf install ruby ruby-devel gcc gcc-c++ make redhat-rpm-config zlib-devel openssl-devel git -y
 
 # Configure gem installation directory (avoid needing sudo for gems)
 echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc

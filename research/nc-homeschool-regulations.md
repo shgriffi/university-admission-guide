@@ -1,3 +1,10 @@
+---
+layout: page
+title: "NC Homeschool Regulations"
+parent: "Research"
+nav_order: 3
+---
+
 # North Carolina Homeschool Regulations & Requirements
 
 **Research Date**: [TO BE COMPLETED - Enter date you research this]

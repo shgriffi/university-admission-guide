@@ -1,3 +1,10 @@
+---
+layout: page
+title: "NC A&T"
+parent: "Universities"
+nav_order: 5
+---
+
 # North Carolina A&T State University
 
 **For**: Homeschool Students (Class of [YEAR])

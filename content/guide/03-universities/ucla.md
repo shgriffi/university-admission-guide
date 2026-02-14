@@ -1,3 +1,10 @@
+---
+layout: page
+title: "UCLA"
+parent: "Universities"
+nav_order: 3
+---
+
 # University of California, Los Angeles (UCLA)
 
 **For**: Homeschool Students (Class of [YEAR])

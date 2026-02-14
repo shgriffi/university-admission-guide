@@ -1,3 +1,10 @@
+---
+layout: page
+title: "External Scholarships"
+parent: "Research"
+nav_order: 4
+---
+
 # External Scholarship Opportunities for Connor
 
 **Profile:** Homeschooled, African American, North Carolina resident, High-income family (merit-based only)

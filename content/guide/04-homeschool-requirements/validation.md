@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Validation"
+parent: "Homeschool Requirements"
+nav_order: 4
+---
+
 # Coursework Validation & Documentation for Homeschoolers
 
 **For**: Homeschool Students (Class of [YEAR])

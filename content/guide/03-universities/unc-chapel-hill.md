@@ -1,3 +1,10 @@
+---
+layout: page
+title: "UNC Chapel Hill"
+parent: "Universities"
+nav_order: 8
+---
+
 # University of North Carolina at Chapel Hill
 
 **For**: Homeschool Students (Class of [YEAR])

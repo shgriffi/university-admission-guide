@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Georgia Tech"
+parent: "Universities"
+nav_order: 6
+---
+
 # Georgia Institute of Technology
 
 **For**: Homeschool Students (Class of [YEAR])
