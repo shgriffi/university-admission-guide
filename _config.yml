@@ -3,8 +3,8 @@ title: "Comprehensive College Admissions Guide for Homeschool Students"
 description: "A complete, customizable template for college admissions planning specifically designed for homeschool families."
 author: "Connor College Admissions Guide"
 email: ""
-baseurl: "" # Leave empty for main domain deployment
-url: "" # Will be set by GitHub Pages
+baseurl: "/university-admission-guide" # Subdirectory path for GitHub Pages
+url: "https://sherard.ai" # Your custom domain
 
 # Build settings
 markdown: kramdown
