@@ -3,7 +3,7 @@ title: "Comprehensive College Admissions Guide for Homeschool Students"
 description: "A complete, customizable template for college admissions planning specifically designed for homeschool families."
 author: "College Admissions Guide"
 email: ""
-baseurl: "/university-admission-guide" # Subdirectory path for GitHub Pages
+baseurl: "" # Subdirectory path for GitHub Pages
 url: "http://admissions.sherard.ai" # Your custom domain
 
 # Build settings
