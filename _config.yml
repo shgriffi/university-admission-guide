@@ -4,7 +4,7 @@ description: "A complete, customizable template for college admissions planning 
 author: "Connor College Admissions Guide"
 email: ""
 baseurl: "/university-admission-guide" # Subdirectory path for GitHub Pages
-url: "https://admissions.sherard.ai" # Your custom domain
+url: "http://admissions.sherard.ai" # Your custom domain
 
 # Build settings
 markdown: kramdown
