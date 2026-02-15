@@ -1,7 +1,7 @@
 # Site settings
 title: "Comprehensive College Admissions Guide for Homeschool Students"
 description: "A complete, customizable template for college admissions planning specifically designed for homeschool families."
-author: "Connor College Admissions Guide"
+author: "College Admissions Guide"
 email: ""
 baseurl: "/university-admission-guide" # Subdirectory path for GitHub Pages
 url: "http://admissions.sherard.ai" # Your custom domain
@@ -25,7 +25,7 @@ aux_links:
     - "https://github.com/shgriffi/university-admission-guide"
 
 # Footer content
-footer_content: "Copyright &copy; 2026 Connor College Admissions Guide. Distributed under the MIT License."
+footer_content: "Copyright &copy; 2026 College Admissions Guide. Distributed under the MIT License."
 
 # Back to top link
 back_to_top: true
